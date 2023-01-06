@@ -1,0 +1,36 @@
+
+.parent{
+    display: flex;
+    width: 100%;
+    height: 660vh;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+  
+
+}
+
+.child1{
+    padding: 50px;
+    background: green;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    order: 3;
+    flex-grow: 3;
+}
+.child2{
+    padding: 50px;
+    background:red;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.child3{
+    padding: 50px;
+    background:yellowgreen;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    flex-grow:3;
+}
