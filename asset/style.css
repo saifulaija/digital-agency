@@ -62,7 +62,6 @@
     background-color: red;
     color: white;
    
-    
 }
 .btn-hire{
     color: red;
@@ -71,11 +70,15 @@
 }
 
 /* service style start  */
+
 .service-container{
     width: 100%;
     height: 100vh;
     padding: 20px;
-    background-image: url("/asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,1));
+    background-image: url("/asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+    background-blend-mode: overlay;
+    color: white;
+}
    
 .service-btn{
     color: gray;
@@ -94,10 +97,64 @@
     font-size: 20px;
     width: 50%;
     padding: 10px;
+    margin-bottom: 20px;
 }
 ol li{
     color: white;
 }
 
+.author-details{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 80px;
+    justify-content: left;
+    align-items: center;
+}
+.author-image-desc{
+    display: flex;
+    margin-right: 8px;
+    border-right: 1px solid red;
+}
+.more-details{
+
+    border-left: 1px solid red;
+
+
+}
+
+.btn-more{
+
+    padding: 15px 35px;
+    border: none;
+    font-size: 18px;
+    margin: 5px;
+    color: red;
+    border: none;
+    border-radius: 25px;
+    margin-left: 80px;
+
+}
+
+
+.service-item{
+    padding: 50px;
+    background-color: white;
+    box-shadow: 4px 4px 8px gray;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.service-logo{
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.service-up{
+    display: flex;
+}
 
 
