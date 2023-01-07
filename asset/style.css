@@ -1,6 +1,7 @@
 *{
     padding:0 ;
     margin: 0;
+    /* border: 1px solid red;  */
 }
 .nav-container{
     display: flex;
@@ -78,6 +79,9 @@
     background-image: url("/asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
     background-blend-mode: overlay;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
    
 .service-btn{
@@ -137,11 +141,11 @@ ol li{
 
 
 .service-item{
-    padding: 50px;
+    padding: 10px;
     background-color: white;
     box-shadow: 4px 4px 8px gray;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     text-align: center;
     color: black;
     border-radius: 10px;
@@ -155,6 +159,18 @@ ol li{
 
 .service-up{
     display: flex;
+   
 }
 
+.service-down{
+    display: flex;
+}
+
+.service-right-container{
+   
+}
+
+.service-left-container{
+    width: 50%;
+}
 
