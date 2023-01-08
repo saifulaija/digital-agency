@@ -1,7 +1,7 @@
 *{
     padding:0 ;
     margin: 0;
-    /* border: 1px solid red;  */
+   
 }
 .nav-container{
     display: flex;
@@ -205,6 +205,41 @@ ol li{
   }
 
   .app-description{
-    width: ;
+    width: 
   }
 
+
+  /* Start Blog Section  */
+
+  .image{
+    width: 50%;
+  }
+
+  .blog-title{
+     text-align: center;
+     margin: 30px 0;
+
+  }
+
+ .blog-heading{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+ }
+
+ .blog-item-container{
+    width: 350px;
+    height: 450px;
+    box-shadow: 8px 8px 8px black;
+   border-radius: 25px;
+   
+ }
+
+ .blog-item-container h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 0;
+
+ }
+
+ 
