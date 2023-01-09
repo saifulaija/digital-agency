@@ -228,10 +228,14 @@ ol li{
  }
 
  .blog-item-container{
-    width: 350px;
-    height: 450px;
+    width: 300px;
+    height: 400px;
     box-shadow: 8px 8px 8px black;
-   border-radius: 25px;
+   border-radius: 20px;
+   padding: 10px;
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-around;
    
  }
 
@@ -240,6 +244,61 @@ ol li{
     font-weight: 500;
     margin: 15px 0;
 
+ }
+
+ .blog-image{
+    width: 300px;
+ }
+
+
+
+
+ /* Start Footer Section  */
+
+ footer{
+    width: 100%;
+    height: 80vh;
+    background-image: url("/asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,1)); 
+    background-blend-mode: overlay; 
+    margin-bottom: 100px;
+ }
+
+ .footer-container{
+    width: 70%;
+    height: 60vh;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+   
+
+ }
+ hr{
+    color:white;
+ }
+
+ .footer-item{
+    width: 300px;
+    height: 400px;
+    padding:10px;
+ }
+
+ .text{
+    margin: 25px 0 50px 0;
+ }
+
+ .image-icon{
+    margin-right: 5px;
+    color: white;
+ }
+
+ .hr-text{
+    color: wheat;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
  }
 
  
